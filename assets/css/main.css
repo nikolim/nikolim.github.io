@@ -2827,8 +2827,9 @@ input, select, textarea {
 		margin: 0 0 3em -2em;
 		padding: 0;
 		list-style: none;
-	}
 
+	}
+		
 		.features li {
 			width: calc(33.33333% - 2em);
 			margin-left: 2em;
@@ -2875,18 +2876,26 @@ input, select, textarea {
 
 		}
 
-/* Statistics */
+/* Skills */
+	
+ 	.skill-icons img{
+		height: 50px;
+	 }
 
-	.statistics {
+	.skill-icons {
 		display: -moz-flex;
 		display: -webkit-flex;
 		display: -ms-flex;
 		display: flex;
-		width: 50%;
+		width: 100%;
 		margin: 0 0 3em 0;
 		padding: 0;
 		list-style: none;
 		cursor: default;
+	}
+
+	.statistics img{
+		height: 30%;
 	}
 
 		.statistics li {
@@ -2898,26 +2907,6 @@ input, select, textarea {
 			color: #ffffff;
 			text-align: center;
 		}
-
-			.statistics li.style1 {
-				background-color: #56b372;
-			}
-			
-			.statistics li.style2 {
-				background-color: #3c7741;
-			}
-
-			.statistics li.style3 {
-				background-color: #5a478d;
-			}
-
-			.statistics li.style4 {
-				background-color: #344a77;
-			}
-
-			.statistics li.style5 {
-				background-color: #8cc9f0;
-			}
 
 			.statistics li strong, .statistics li b {
 				display: block;
@@ -3694,6 +3683,9 @@ input, select, textarea {
 						}
 
 		}
+
+
+		
 
 /* Footer */
 
