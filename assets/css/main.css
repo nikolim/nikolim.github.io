@@ -2900,19 +2900,19 @@ input, select, textarea {
 		}
 
 			.statistics li.style1 {
-				background-color: #efa8b0;
+				background-color: #56b372;
 			}
-
+			
 			.statistics li.style2 {
-				background-color: #c79cc8;
+				background-color: #3c7741;
 			}
 
 			.statistics li.style3 {
-				background-color: #a89cc8;
+				background-color: #5a478d;
 			}
 
 			.statistics li.style4 {
-				background-color: #9bb2e1;
+				background-color: #344a77;
 			}
 
 			.statistics li.style5 {
@@ -2981,7 +2981,6 @@ input, select, textarea {
 				.statistics li strong, .statistics li b {
 					font-size: 2.5em;
 				}
-
 		}
 
 /* Spotlight */
@@ -2997,6 +2996,7 @@ input, select, textarea {
 		align-items: center;
 		margin: 0 0 2em 0;
 	}
+	
 
 		.spotlight .content {
 			-moz-flex: 1;
@@ -3231,13 +3231,13 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		background-color: #ffffff;
+		background-color: #abb8b5;
 		color: #636363;
 		position: absolute;
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #f7f7f7;
+		background-color: #abb8b5;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3350,7 +3350,7 @@ input, select, textarea {
 /* Main */
 
 	#main {
-		background-color: #ffffff;
+		background-color: #f0f7f6;
 		color: #636363;
 		border-radius: 0.25em;
 	}
