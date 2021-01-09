@@ -2736,7 +2736,15 @@ input, select, textarea {
 /* Education */
 
 .education {
-	text-align: center;
+	text-align: left;
+}
+
+.education div{
+	margin-bottom: 2em;
+}
+
+.education img{
+	margin-right: 3em;
 }
 
 .education h3{
@@ -2744,7 +2752,7 @@ input, select, textarea {
 }
 
 .education uni-name{
-	font-weight: bold;
+	font-weight: bolder;
 }
 
 /* Skills */
@@ -2933,6 +2941,7 @@ input, select, textarea {
 			-webkit-flex: 1;
 			-ms-flex: 1;
 			flex: 1;
+			margin-left: 3em;
 		}
 
 			.spotlight .content > :last-child {
@@ -2945,14 +2954,12 @@ input, select, textarea {
 
 		.spotlight .image {
 			display: inline-block;
-			margin-left: 2em;
 			padding: 0.65em;
 			border-radius: 100%;
 		}
 
 			.spotlight .image img {
 				display: block;
-				margin-right: 4em;
 				border-radius: 100%;
 				width: 16em;
 			}
@@ -2973,6 +2980,7 @@ input, select, textarea {
 					-ms-flex: 0 1 auto;
 					flex: 0 1 auto;
 					width: 100%;
+					margin-left: 0em;
 				}
 
 					.spotlight .content header.major h2:after {
@@ -3627,7 +3635,7 @@ input, select, textarea {
 
 /* About me */
 	.about {
-		font-weight: lighter;
+		font-size: large;
 	}	
 
 /*  Projects */
@@ -3637,6 +3645,18 @@ input, select, textarea {
 	.projects img{
 		height: 200px;
 	}
+
+/* Project */	
+
+.project {
+	background-color: #abb8b5;
+	font-size: large;
+}
+
+/* Contact */
+.contact{
+	font-size: large;
+}
 
 /* Footer */
 
