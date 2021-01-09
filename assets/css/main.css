@@ -2398,8 +2398,9 @@ input, select, textarea {
 
 		.image.fit {
 			display: block;
-			margin: 0 0 2em 0;
+			margin: 0 0 2em -0.5em;
 			width: 100%;
+			min-width: 200px;
 		}
 
 			.image.fit img {
@@ -2750,7 +2751,7 @@ input, select, textarea {
 }
 
 .education h3{
-	font-weight: bold;
+	font-weight: 500;
 }
 
 .education uni-name{
@@ -3651,12 +3652,24 @@ input, select, textarea {
 		height: 150px;
 	}
 
+
 /* Project */	
 
 .project {
 	background-color: #e3e8e7;
 	font-size: large;
 }
+
+/* Experience */
+
+	.experience {
+		text-align: center;
+	}
+
+	.experience img{
+		height: 100px;
+	}
+
 
 /* Contact */
 .contact{
