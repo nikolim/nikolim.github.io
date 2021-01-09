@@ -2637,6 +2637,7 @@ input, select, textarea {
 
 	.experience {
 		text-align: center;
+		font-size: large;
 	}
 
 	.experience h3{
@@ -2737,6 +2738,7 @@ input, select, textarea {
 
 .education {
 	text-align: left;
+	font-size: large;
 }
 
 .education div{
@@ -2757,6 +2759,10 @@ input, select, textarea {
 
 /* Skills */
 
+.skills {
+	font-size: large;
+}
+
 	.features {
 		display: -moz-flex;
 		display: -webkit-flex;
@@ -2774,7 +2780,6 @@ input, select, textarea {
 		margin: 0 0 3em -2em;
 		padding: 0;
 		list-style: none;
-
 	}
 		.features li {
 			width: calc(33.33333% - 2em);
@@ -2828,7 +2833,7 @@ input, select, textarea {
 /* Skills */
 	
  	.skill-icons img{
-		height: 50px;
+		height: 40px;
 	 }
 
 	.skill-icons {
@@ -3643,7 +3648,7 @@ input, select, textarea {
 		text-align: center;
 	}
 	.projects img{
-		height: 200px;
+		height: 150px;
 	}
 
 /* Project */	
@@ -3656,6 +3661,16 @@ input, select, textarea {
 /* Contact */
 .contact{
 	font-size: large;
+}
+
+.person {
+	font-size: large;
+}
+
+.person img{
+	height: auto;
+	width: auto;
+	margin-left: 2em;
 }
 
 /* Footer */
