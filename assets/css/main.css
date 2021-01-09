@@ -3169,13 +3169,13 @@ input, select, textarea {
 		-webkit-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		-ms-transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
 		transition: background-color 0.2s ease, border-top-left-radius 0.2s ease, border-top-right-radius 0.2s ease, padding 0.2s ease;
-		background-color: #abb8b5;
+		background-color: #c8d0ce;
 		color: #636363;
 		position: absolute;
 		width: 64em;
 		max-width: calc(100% - 4em);
 		padding: 1em;
-		background-color: #abb8b5;
+		background-color: #c8d0ce;
 		border-top-left-radius: 0.25em;
 		border-top-right-radius: 0.25em;
 		cursor: default;
@@ -3204,7 +3204,7 @@ input, select, textarea {
 
 		#nav code {
 			background: rgba(222, 222, 222, 0.25);
-			border-color:  #abb8b5;
+			border-color:  #c8d0ce;
 		}
 
 		#nav hr {
@@ -3649,7 +3649,7 @@ input, select, textarea {
 /* Project */	
 
 .project {
-	background-color: #abb8b5;
+	background-color: #e3e8e7;
 	font-size: large;
 }
 
