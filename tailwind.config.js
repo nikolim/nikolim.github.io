@@ -4,7 +4,23 @@ module.exports = {
     "./src/**/*.{js,jsx,ts,tsx}",
   ],
   theme: {
-    extend: {},
+    extend: {
+      colors: {
+        polarnight: "#434C5E",
+        polarnightdark: "#2E3440",
+        snowbright: "#ECEFF4",
+        snow: "E5E9F0",
+        snowdark: "#D8DEE9",
+      },
+      fontFamily: {
+        sans: ["Bai Jamjuree", "sans-serif"],
+      },
+      fontSize: {
+        "10xl": "12vh",
+      }
+    },
   },
-  plugins: [],
+  plugins: [
+    require('flowbite/plugin')
+  ]
 }
