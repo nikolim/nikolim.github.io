@@ -8,7 +8,7 @@ const Person = function () {
                 Person
             </div>
             <div className="flex flex-wrap justify-center gap-x-12 gap-y-6 p-6">
-                <div className={"object-fit  max-w-[400px]"}>
+                <div className={"object-fit  max-w-[350px]"}>
                     <img src={volcano} className="rounded-lg" alt=""/>
                 </div>
                 <div className="flex">

@@ -22,7 +22,7 @@ const Card = function ({company, position, description, logo}) {
 
 const Experience = function () {
     return (
-        <div className="flex-col pt-9 pb-6">
+        <div className="flex-col pt-9 pb-6 px-3">
             <div className="text-center text-white text-4xl pb-3 font-medium">
                 Experience
             </div>

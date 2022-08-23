@@ -8,12 +8,12 @@ import k8s from "../Assets/skills/k8s.png"
 const Skills = function () {
     const iconStyle = "h-12 grayscale m-3 transition duration-500 hover:scale-125 hover:grayscale-0";
     return (
-        <div className="flex-col py-3">
+        <div className="flex-col p-6">
             <div className="text-center text-white text-4xl pb-3 font-medium">
                 Skills
             </div>
             <div className="flex justify-center">
-                <div className="flex flex-wrap p-3">
+                <div className="flex flex-wrap justify-center p-3">
                     <img src={python} className={iconStyle} alt=""/>
                     <img src={javascript} className={iconStyle} alt=""/>
                     <img src={golang} className={iconStyle} alt=""/>
