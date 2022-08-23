@@ -14,7 +14,8 @@ const About = function () {
                     Science as well as Mechanical Engineering. I am working as a Software
                     Engineer in a R&D company, focusing on distributed microservices and driver assistance
                     systems. In my free time, I enjoy experimenting with different
-                    programming languages and exploring new technologies.                </div>
+                    programming languages and exploring new technologies.
+                </div>
             </div>
         </div>
     );

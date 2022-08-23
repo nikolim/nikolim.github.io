@@ -94,7 +94,7 @@ const Projects = function () {
                 <Card name={"CLM Lane Management"}
                       type={IndustryBadge}
                       img={clm}
-                  description={`Development of distributed backend services and onboard software to enable cooperative maneuvers like lane merging of connected vehicles. Levering 5G and Mobile-Edge-Computing to reach low latency <a href="https://www.youtube.com/watch?v=daxptHOXTI4" style="text-decoration: underline">(Promo video).</a>`}
+                      description={`Development of distributed backend services and onboard software to enable cooperative maneuvers like lane merging of connected vehicles. Levering 5G and Mobile-Edge-Computing to reach low latency <a href="https://www.youtube.com/watch?v=daxptHOXTI4" style="text-decoration: underline">(Promo video).</a>`}
                       badges={[PythonBadge, JavascriptBadge, GolangBadge, AMQPBadge, K8sBadge, InfluxBadge, GrafanaBadge]}
                 />
                 <Card name={"Right Turn Assistant"}

@@ -41,14 +41,14 @@ const Education = function () {
                     graduation={2021}
                     logo={lmu}
                 />
-            <Study
-                university={"HM"}
-                subject={"Mechanical Engineering"}
-                degree={"Bachelor"}
-                graduation={2018}
-                logo={hm}
-            />
-        </div>
+                <Study
+                    university={"HM"}
+                    subject={"Mechanical Engineering"}
+                    degree={"Bachelor"}
+                    graduation={2018}
+                    logo={hm}
+                />
+            </div>
         </div>
     );
 };

@@ -13,11 +13,11 @@ const Person = function () {
                 </div>
                 <div className="flex">
                     <div className="default-text m-auto text-lg max-w-3xl">
-                        Apart from IT, I enjoy to discover the world around me and figure out how things are interconnected
-                        on a scientific and philosophical level.
-                        I am passionate about being in nature, climbing mountains and experiencing the diversity of our planet.
-                        I enjoy cooking, reading and listening to electronic music.
-                        Sustainability is a topic that is very dear to me and I am eager to figure out different ways to make a positive contribution in this world.
+                        Apart from IT, I enjoy discovering the world around me and figuring out how things are
+                        interconnected on a scientific and philosophical level. I am passionate about being in nature,
+                        climbing mountains, and experiencing the diversity of our planet. I enjoy cooking, reading, and
+                        listening to electronic music. Sustainability is a topic that is very dear to me and I am eager
+                        to figure out different ways to make a positive contribution to this world.
                     </div>
                 </div>
             </div>
