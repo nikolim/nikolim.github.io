@@ -1,12 +1,12 @@
 {
   "files": {
-    "main.css": "/static/css/main.35ab11c7.css",
-    "main.js": "/static/js/main.ceaa8482.js",
-    "static/media/profile.png": "/static/media/profile.977401977574e3f14c29.png",
+    "main.css": "/static/css/main.3520b4e8.css",
+    "main.js": "/static/js/main.34062057.js",
+    "static/media/profile.png": "/static/media/profile.77e73418bba78ac9e3d2.png",
     "static/media/raa.png": "/static/media/raa.ac902d47fa12264d16bf.png",
+    "static/media/clm.png": "/static/media/clm.9c25e8abad06d1ca9054.png",
     "static/media/kth.png": "/static/media/kth.9db20cbd07b93a2a0b34.png",
     "static/media/iot.png": "/static/media/iot.b7a5efb34a89fef38e6b.png",
-    "static/media/clm.png": "/static/media/clm.a56197ad5c1d3eac2b79.png",
     "static/media/cabworld.png": "/static/media/cabworld.09009ba569d7dd8b2035.png",
     "static/media/handpan.png": "/static/media/handpan.3170138354ec422f970d.png",
     "static/media/motius.png": "/static/media/motius.10dbd6fd98e92222442a.png",
@@ -14,11 +14,11 @@
     "static/media/hm.png": "/static/media/hm.cc07f8421ef7384c5167.png",
     "static/media/iav.png": "/static/media/iav.ab72518158ea6f58173b.png",
     "index.html": "/index.html",
-    "main.35ab11c7.css.map": "/static/css/main.35ab11c7.css.map",
-    "main.ceaa8482.js.map": "/static/js/main.ceaa8482.js.map"
+    "main.3520b4e8.css.map": "/static/css/main.3520b4e8.css.map",
+    "main.34062057.js.map": "/static/js/main.34062057.js.map"
   },
   "entrypoints": [
-    "static/css/main.35ab11c7.css",
-    "static/js/main.ceaa8482.js"
+    "static/css/main.3520b4e8.css",
+    "static/js/main.34062057.js"
   ]
 }
