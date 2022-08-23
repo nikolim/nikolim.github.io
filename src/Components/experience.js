@@ -22,16 +22,17 @@ const Card = function ({company, position, description, logo}) {
 
 const Experience = function () {
     return (
-        <div className="flex-col pt-9">
+        <div className="flex-col pt-9 pb-6">
             <div className="text-center text-white text-4xl pb-3 font-medium">
                 Experience
             </div>
-            <div className="">
-                <ol className="border-l border-gray-200 dark:border-gray-700">
+            <div className="flex justify-center pt-6">
+                <ol className="border-l border-gray-200">
                     <li className="mb-10 ml-4">
-                        <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"/>
+                        <div
+                            className="relative w-4 h-4 bg-gray-200 rounded-full -left-6 top-4"/>
                         <time className="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">
-                            02.2020 - now
+                            02.2020 - Present
                         </time>
                         <Card
                             company={"Motius"}
@@ -43,8 +44,11 @@ const Experience = function () {
                         />
                     </li>
                     <li className="mb-10 ml-4">
-                        <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"/>
-                        <time className="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500"> 02.2019 - 11.2019
+                        <div
+                            className="relative w-4 h-4 bg-gray-200 rounded-full -left-6 top-4"/>
+                        <time
+                            className="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500"> 02.2019
+                            - 11.2019
                         </time>
                         <Card
                             company={"Virtual Identity"}
@@ -55,19 +59,21 @@ const Experience = function () {
                             logo={vi}
                         />
                     </li>
-                    <li className="mb-10 ml-4">
-                        <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"/>
-                        <time className="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500"> 02.2019 - 11.2019
+                    <li className="ml-4">
+                        <div
+                            className="relative w-4 h-4 bg-gray-200 rounded-full -left-6 top-4"/>
+                        <time
+                            className="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500"> 10.2017
+                            - 03.2018
                         </time>
                         <Card
-                            company={"Virtual Identity"}
-                            position={"Junior System Administrator (Student)"}
+                            company={"IAV"}
+                            position={"Actuator and sensor department (Student)"}
                             description={
-                                "Supporting the IT infrastructure and introducing and automating new IT processes."
+                                "Programming tools for the evaluation of sensor data and supporting in data interpretation."
                             }
-                            logo={vi}
-                        />
-                    </li>
+                            logo={iav}
+                        /></li>
                 </ol>
             </div>
         </div>

@@ -1,10 +1,10 @@
-import profile from "../Assets/profile.png";
+import profile from "../Assets/person/profile.png";
 
 const About = function () {
     return (
-        <div className="flex flex-wrap justify-center gap-x-12 gap-y-6 p-3">
-            <div className={"object-fit max-w-[200px]"}>
-                <img src={profile} alt=""/>
+        <div className="flex flex-wrap justify-center gap-x-12 gap-y-6 p-6">
+            <div className={"object-fit max-w-[250px]"}>
+                <img src={profile} className="rounded" alt=""/>
             </div>
             <div className="flex">
                 <div className="default-text m-auto text-xl max-w-3xl">

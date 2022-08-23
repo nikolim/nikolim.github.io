@@ -5,7 +5,7 @@ import hm from "../Assets/education/hm.png";
 
 const Study = function ({university, subject, degree, logo, graduation}) {
     return (
-        <div className="max-w-md py-3 transition duration-500 hover:bg-gray-800 hover:scale-105 rounded-lg">
+        <div className="max-w-md py-3 transition duration-500 hover:scale-105 rounded-lg">
             <div className="px-5 flex items-center justify-between">
                 <div>
                     <h4 className="mb-2 text-2xl font-bold text-white">{university}</h4>
