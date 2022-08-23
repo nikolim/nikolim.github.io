@@ -4,7 +4,7 @@ import iav from "../Assets/experience/iav.png";
 
 const Card = function ({company, position, description, logo}) {
     return (
-        <div className="max-w-sm">
+        <div className="max-w-sm px-5 ">
             <div className="flex items-center justify-between">
                 <div>
                     <h4 className="mb-2 text-2xl font-bold text-white">{company}</h4>
@@ -22,11 +22,11 @@ const Card = function ({company, position, description, logo}) {
 const Experience = function () {
     return (
         <div className="flex-col pt-9">
-            <div className="text-center text-white text-4xl pb-6 font-medium">
+            <div className="text-center text-white text-4xl pb-3 font-medium">
                 Experience
             </div>
             <div
-                className="grid grid-cols-1 sm:grid-cols-1 sm:p-4 md:grid-cols-2 md:p-6 lg:grid-cols-3 lg:p-8 xl:grid-cols-3 xl:p-10 gap-8 m-auto max-w-6xl">
+                className="p-6 grid grid-cols-1 sm:grid-cols-1 sm:p-6 md:grid-cols-2 md:p-6 lg:grid-cols-3 lg:p-8 xl:grid-cols-3 xl:p-10 gap-8 m-auto max-w-6xl">
                 <Card
                     company={"Motius"}
                     position={"Software Engineer (Student)"}

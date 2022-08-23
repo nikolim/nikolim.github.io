@@ -65,7 +65,7 @@ const NodeBadge = function () {
 const Card = function ({name, type, img, description, badges}) {
     return (
         <div
-            className="max-w-sm bg-gray-800 rounded-lg shadow-md transform transition duration-500 hover:scale-105">
+            className="max-w-sm bg-gray-900 rounded-lg border border-2 border-gray-800 shadow-md transform transition duration-500 hover:scale-105">
             <div className="p-5">
                 <div className="flex justify-between">
                     <h5 className="mb-2 text-xl font-bold tracking-tight text-white">
@@ -86,7 +86,7 @@ const Card = function ({name, type, img, description, badges}) {
 const Projects = function () {
     return (
         <div className="flex-col pt-9">
-            <div className="text-center text-white text-4xl pb-6 font-medium">
+            <div className="text-center text-white text-4xl pb-3 font-medium">
                 Projects
             </div>
             <div
