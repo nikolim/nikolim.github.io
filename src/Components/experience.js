@@ -4,7 +4,8 @@ import iav from "../Assets/experience/iav.png";
 
 const Card = function ({company, position, description, logo}) {
     return (
-        <div className="max-w-sm px-5 ">
+        <div
+            className="max-w-lg px-5 py-3 transform transition duration-500 hover:scale-105 rounded-lg">
             <div className="flex items-center justify-between">
                 <div>
                     <h4 className="mb-2 text-2xl font-bold text-white">{company}</h4>
@@ -25,32 +26,49 @@ const Experience = function () {
             <div className="text-center text-white text-4xl pb-3 font-medium">
                 Experience
             </div>
-            <div
-                className="p-6 grid grid-cols-1 sm:grid-cols-1 sm:p-6 md:grid-cols-2 md:p-6 lg:grid-cols-3 lg:p-8 xl:grid-cols-3 xl:p-10 gap-8 m-auto max-w-6xl">
-                <Card
-                    company={"Motius"}
-                    position={"Software Engineer (Student)"}
-                    description={
-                        "Research, develop and evaluate advanced technologies such as driver assistance systems, IOT and distributed microservices"
-                    }
-                    logo={motius}
-                />
-                <Card
-                    company={"Virtual Identity"}
-                    position={"Junior System Administrator (Student)"}
-                    description={
-                        "Supporting the IT infrastructure and introducing and automating new IT processes."
-                    }
-                    logo={vi}
-                />
-                <Card
-                    company={"IAV"}
-                    position={"Actuator and sensor department (Student)"}
-                    description={
-                        "Programming tools for the evaluation of sensor data and supporting in data interpretation."
-                    }
-                    logo={iav}
-                />
+            <div className="">
+                <ol className="border-l border-gray-200 dark:border-gray-700">
+                    <li className="mb-10 ml-4">
+                        <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"/>
+                        <time className="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">
+                            02.2020 - now
+                        </time>
+                        <Card
+                            company={"Motius"}
+                            position={"Software Engineer (Student)"}
+                            description={
+                                "Research, develop and evaluate advanced technologies such as driver assistance systems, IOT and distributed microservices"
+                            }
+                            logo={motius}
+                        />
+                    </li>
+                    <li className="mb-10 ml-4">
+                        <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"/>
+                        <time className="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500"> 02.2019 - 11.2019
+                        </time>
+                        <Card
+                            company={"Virtual Identity"}
+                            position={"Junior System Administrator (Student)"}
+                            description={
+                                "Supporting the IT infrastructure and introducing and automating new IT processes."
+                            }
+                            logo={vi}
+                        />
+                    </li>
+                    <li className="mb-10 ml-4">
+                        <div className="absolute w-3 h-3 bg-gray-200 rounded-full mt-1.5 -left-1.5 border border-white dark:border-gray-900 dark:bg-gray-700"/>
+                        <time className="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500"> 02.2019 - 11.2019
+                        </time>
+                        <Card
+                            company={"Virtual Identity"}
+                            position={"Junior System Administrator (Student)"}
+                            description={
+                                "Supporting the IT infrastructure and introducing and automating new IT processes."
+                            }
+                            logo={vi}
+                        />
+                    </li>
+                </ol>
             </div>
         </div>
     );
