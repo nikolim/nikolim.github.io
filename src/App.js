@@ -11,7 +11,7 @@ export default function App() {
               <About />
               <Projects />
               <Experience />
-              {/*<Education />*/}
+              <Education />
           </div>
   );
 }
