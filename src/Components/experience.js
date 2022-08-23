@@ -70,7 +70,7 @@ const Experience = function () {
                             company={"IAV"}
                             position={"Actuator and sensor department (Student)"}
                             description={
-                                "Programming tools for the evaluation of sensor data and supporting in data interpretation."
+                                "Programming tools for the evaluation of sensor data and supporting data interpretation."
                             }
                             logo={iav}
                         /></li>

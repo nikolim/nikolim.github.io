@@ -25,8 +25,8 @@ const Skills = function () {
             <div className="flex justify-center">
                 <ul className="list-disc text-white text-lg">
                     <li className="pt-1">Advanced programming-skills with project-experience (Python, JavaScript, Go)</li>
-                    <li className="pt-1">Practiced handling of Git, CI/CD and project management tools</li>
-                    <li className="pt-1">Expertise in Machine Learning and Reinforcement Learning</li>
+                    <li className="pt-1">Experience with CI/CD pipelines, cloud and tooling</li>
+                    <li className="pt-1">Practiced handling of Git and project management tools</li>
                     <li className="pt-1">Advanced Linux knowledge</li>
                 </ul>
             </div>

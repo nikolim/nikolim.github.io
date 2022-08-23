@@ -12,7 +12,7 @@ const Person = function () {
                     <img src={volcano} className="rounded-lg" alt=""/>
                 </div>
                 <div className="flex">
-                    <div className="default-text m-auto text-xl max-w-3xl">
+                    <div className="default-text m-auto text-lg max-w-3xl">
                         Apart from IT, I enjoy to discover the world around me and figure out how things are interconnected
                         on a scientific and philosophical level.
                         I am passionate about being in nature, climbing mountains and experiencing the diversity of our planet.
