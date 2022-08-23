@@ -86,7 +86,7 @@ const Card = function ({name, type, img, description, badges}) {
 const Projects = function () {
     return (
         <div className="flex-col pt-9">
-            <div className="text-center text-white text-4xl pb-4 font-medium">
+            <div className="text-center text-white text-4xl pb-6 font-medium">
                 Projects
             </div>
             <div

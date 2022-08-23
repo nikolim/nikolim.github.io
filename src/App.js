@@ -10,7 +10,7 @@ export default function App() {
               <Header />
               <About />
               <Projects />
-              {/*<Experience />*/}
+              <Experience />
               {/*<Education />*/}
           </div>
   );
