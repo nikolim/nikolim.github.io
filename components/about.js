@@ -1,10 +1,12 @@
-import profile from "../Assets/person/profile.png";
+import Image  from "next/image";
+
+import profile from "../public/images/person/profile.png";
 
 const About = function () {
     return (
         <div className="flex flex-wrap justify-center gap-x-12 gap-y-6 p-6">
             <div className={"object-fit max-w-[250px]"}>
-                <img src={profile} className="rounded" alt=""/>
+                <Image src={profile} alt={""}/>
             </div>
             <div className="flex">
                 <div className="default-text m-auto text-xl max-w-3xl">

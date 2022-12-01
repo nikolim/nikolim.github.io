@@ -1,12 +1,14 @@
-import python from "../Assets/skills/python.png"
-import javascript from "../Assets/skills/js.png"
-import golang from "../Assets/skills/go.png"
-import linux from "../Assets/skills/linux.png"
-import gitlab from "../Assets/skills/gitlab.png"
-import k8s from "../Assets/skills/k8s.png"
+import Image from "next/image";
+
+import python from "../public/images/skills/python.png"
+import javascript from "../public/images/skills/js.png"
+import golang from "../public/images/skills/go.png"
+import linux from "../public/images/skills/linux.png"
+import gitlab from "../public/images/skills/gitlab.png"
+import k8s from "../public/images/skills/k8s.png"
 
 const Skills = function () {
-    const iconStyle = "h-12 grayscale m-3 transition duration-500 hover:scale-125 hover:grayscale-0";
+    const iconStyle = "h-12 w-12 grayscale m-3 transition duration-500 hover:grayscale-0";
     return (
         <div className="flex-col p-6">
             <div className="text-center text-white text-4xl pb-3 font-medium">
@@ -14,12 +16,12 @@ const Skills = function () {
             </div>
             <div className="flex justify-center">
                 <div className="flex flex-wrap justify-center p-3">
-                    <img src={python} className={iconStyle} alt=""/>
-                    <img src={javascript} className={iconStyle} alt=""/>
-                    <img src={golang} className={iconStyle} alt=""/>
-                    <img src={linux} className={iconStyle} alt=""/>
-                    <img src={k8s} className={iconStyle} alt=""/>
-                    <img src={gitlab} className={iconStyle} alt=""/>
+                    <Image src={python} alt={""} className={iconStyle}/>
+                    <Image src={javascript} alt={""} className={iconStyle}/>
+                    <Image src={golang} alt={""} className={iconStyle}/>
+                    <Image src={linux} alt={""} className={iconStyle}/>
+                    <Image src={k8s} alt={""} className={iconStyle}/>
+                    <Image src={gitlab} alt={""} className={iconStyle}/>
                 </div>
             </div>
             <div className="flex justify-center">

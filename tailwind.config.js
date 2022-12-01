@@ -1,7 +1,10 @@
-/** @type {import('tailwindcss').Config} */
+const { fontFamily } = require('tailwindcss/defaultTheme')
+
 module.exports = {
   content: [
-    "./src/**/*.{js,jsx,ts,tsx}",
+    './pages/**/*.{js,ts,jsx,tsx}',
+    './components/**/*.{js,ts,jsx,tsx}',
+    './app/**/*.{js,ts,jsx,tsx}',
   ],
   theme: {
     extend: {
@@ -12,15 +15,9 @@ module.exports = {
         snow: "E5E9F0",
         snowdark: "#D8DEE9",
       },
-      fontFamily: {
-        sans: ["Bai Jamjuree", "sans-serif"],
-      },
       fontSize: {
         "10xl": "12vh",
       }
     },
-  },
-  plugins: [
-    require('flowbite/plugin')
-  ]
+  },  plugins: [],
 }
