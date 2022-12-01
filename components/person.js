@@ -1,4 +1,6 @@
-import volcano from "../Assets/person/volcano.png";
+import Image from "next/image";
+
+import volcano from "../public/images/person/volcano.png";
 
 const Person = function () {
     return (
@@ -9,7 +11,7 @@ const Person = function () {
             </div>
             <div className="flex flex-wrap justify-center gap-x-12 gap-y-6 p-6">
                 <div className={"object-fit  max-w-[350px]"}>
-                    <img src={volcano} className="rounded-lg" alt=""/>
+                    <Image src={volcano} alt={""}/>
                 </div>
                 <div className="flex">
                     <div className="default-text m-auto text-lg max-w-3xl">
