@@ -3,6 +3,7 @@ import Image from "next/image";
 import motius from "../public/images/experience/motius.png";
 import vi from "../public/images/experience/vi.png";
 import iav from "../public/images/experience/iav.png";
+import siemens from "../public/images/experience/siemens.png";
 
 const Card = function ({company, position, description, logo}) {
     return (
@@ -26,7 +27,7 @@ const Card = function ({company, position, description, logo}) {
 
 const Experience = function () {
     return (
-        <div className="flex-col pt-9 pb-6 px-3">
+        <div id="experience" className="flex-col pt-9 pb-6 px-3">
             <div className="text-center text-white text-4xl pb-3 font-medium">
                 Experience
             </div>
@@ -36,7 +37,23 @@ const Experience = function () {
                         <div
                             className="relative w-4 h-4 bg-gray-200 rounded-full -left-6 top-4"/>
                         <time className="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">
-                            02.2020 - Present
+                            12.2022 - present
+                        </time>
+                        <Card
+                            company={"Siemens"}
+                            position={"Master Thesis Student"}
+                            description={
+                                "Title: Dynamic macro to micro scale calculation of energy consumption metrics in\n" +
+                                "CI/CD pipelines."
+                            }
+                            logo={siemens}
+                        />
+                    </li>
+                    <li className="mb-10 ml-4">
+                        <div
+                            className="relative w-4 h-4 bg-gray-200 rounded-full -left-6 top-4"/>
+                        <time className="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">
+                            02.2020 - 11.2022
                         </time>
                         <Card
                             company={"Motius"}
