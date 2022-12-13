@@ -14,7 +14,7 @@ const Home: NextPage = () => {
     return (
         <div className="bg-gray-900">
             <Head>
-                <title>Niko Limbrunner</title>
+                <title>Nikolai Limbrunner</title>
                 <meta name='description' content='Nikolai Limbrunner'/>
             </Head>
             <Navbar/>
