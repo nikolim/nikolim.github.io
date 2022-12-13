@@ -5,7 +5,7 @@ import volcano from "../public/images/person/volcano.png";
 const Person = function () {
     return (
 
-        <div className="flex-col pt-9">
+        <div className="flex-col pt-9" id="person">
             <div className="text-center text-white text-4xl pb-3 font-medium">
                 Person
             </div>

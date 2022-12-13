@@ -6,6 +6,7 @@ import raa from "../public/images/projects/raa.png";
 import handpan from "../public/images/projects/handpan.png";
 import cabworld from "../public/images/projects/cabworld.png";
 import bragi from "../public/images/projects/bragi.png";
+import hulawood from "../public/images/projects/forest.png";
 
 const commonBadgeStyle = "text-xs font-medium mr-2 mb-2 px-2.5 py-0.5 rounded";
 
@@ -51,6 +52,10 @@ const MQTTBadge = function () {
 const ReactBadge = function () {
     return (<span className={`bg-blue-100 text-blue-800 ${commonBadgeStyle}`} key={"react"}>React</span>);
 }
+
+const NextBadge = function () {
+    return (<span className={`bg-blue-100 text-blue-800 ${commonBadgeStyle}`} key={"react"}>NextJs</span>);
+}
 const FirebaseBadge = function () {
     return (<span className={`bg-orange-100 text-orange-800 ${commonBadgeStyle}`} key={"firebase"}>Firebase</span>);
 }
@@ -87,7 +92,7 @@ const Card = function ({name, type, img, description, badges, key}) {
 
 const Projects = function () {
     return (
-        <div className="flex-col pt-9">
+        <div className="flex-col pt-9 flex align-center" id="projects">
             <div className="text-center text-white text-4xl pb-3 font-medium">
                 Projects
             </div>
@@ -110,6 +115,12 @@ const Projects = function () {
                       img={iot}
                       description={"Development and application of different IOT protocols and evaluation for automotive use-cases."}
                       badges={[PythonBadge, GrpcBadge, MQTTBadge, AMQPBadge]}
+                />
+                <Card name={"Hulawood"}
+                      type={PrivateBadge}
+                      img={hulawood}
+                      description={`Hulawood creates a new way to invest sustainably in forest as an asset class. <a href="https://www.hulawood.com/" style="text-decoration: underline"> (Website) </a>.`}
+                      badges={[JavascriptBadge, NextBadge, FirebaseBadge, TailwindBadge]}
                 />
                 <Card name={"Workshop Booking Website"}
                       type={PrivateBadge}

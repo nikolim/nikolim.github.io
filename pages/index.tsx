@@ -1,7 +1,6 @@
 import type {NextPage} from 'next'
-import Head from 'next/head'
 
-import Header from "../components/header";
+import Head from 'next/head'
 import About from "../components/about";
 import Experience from "../components/experience";
 import Education from "../components/education";
@@ -9,6 +8,7 @@ import Projects from "../components/projects";
 import Skills from "../components/skills";
 import Person from "../components/person";
 import Footer from "../components/footer";
+import Navbar from "../components/navbar";
 
 const Home: NextPage = () => {
     return (
@@ -17,7 +17,7 @@ const Home: NextPage = () => {
                 <title>Niko Limbrunner</title>
                 <meta name='description' content='Nikolai Limbrunner'/>
             </Head>
-            <Header/>
+            <Navbar/>
             <About/>
             <Projects/>
             <Experience/>

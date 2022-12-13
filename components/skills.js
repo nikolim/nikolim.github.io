@@ -6,11 +6,12 @@ import golang from "../public/images/skills/go.png"
 import linux from "../public/images/skills/linux.png"
 import gitlab from "../public/images/skills/gitlab.png"
 import k8s from "../public/images/skills/k8s.png"
+import react from "../public/images/skills/react.png"
 
 const Skills = function () {
     const iconStyle = "h-12 w-12 grayscale m-3 transition duration-500 hover:grayscale-0";
     return (
-        <div className="flex-col p-6">
+        <div className="flex-col p-6" id="skills">
             <div className="text-center text-white text-4xl pb-3 font-medium">
                 Skills
             </div>
@@ -19,13 +20,14 @@ const Skills = function () {
                     <Image src={python} alt={""} className={iconStyle}/>
                     <Image src={javascript} alt={""} className={iconStyle}/>
                     <Image src={golang} alt={""} className={iconStyle}/>
+                    <Image src={react} alt={""} className={iconStyle}/>
                     <Image src={linux} alt={""} className={iconStyle}/>
                     <Image src={k8s} alt={""} className={iconStyle}/>
                     <Image src={gitlab} alt={""} className={iconStyle}/>
                 </div>
             </div>
             <div className="flex justify-center">
-                <ul className="list-disc text-white text-lg">
+                <ul className="list-disc text-white text-lg px-5">
                     <li className="pt-1">Advanced programming-skills with project-experience (Python, JavaScript, Go)
                     </li>
                     <li className="pt-1">Experience with CI/CD pipelines, cloud and tooling</li>
