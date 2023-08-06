@@ -4,6 +4,7 @@ import motius from "../public/images/experience/motius.png";
 import vi from "../public/images/experience/vi.png";
 import iav from "../public/images/experience/iav.png";
 import siemens from "../public/images/experience/siemens.png";
+import netlight from "../public/images/experience/netlight.png";
 
 const Card = function ({company, position, description, logo}) {
     return (
@@ -37,13 +38,28 @@ const Experience = function () {
                         <div
                             className="relative w-4 h-4 bg-gray-200 rounded-full -left-6 top-4"/>
                         <time className="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">
-                            12.2022 - present
+                            08.2023 - present
+                        </time>
+                        <Card
+                            company={"Netlight"}
+                            position={"IT Consultant"}
+                            description={
+                                "IT Consultant and Software Engineer with a focus on backend, mirco services, web and DevOps."
+                            }
+                            logo={netlight}
+                        />
+                    </li>
+                    <li className="mb-10 ml-4">
+                        <div
+                            className="relative w-4 h-4 bg-gray-200 rounded-full -left-6 top-4"/>
+                        <time className="mb-1 text-xl font-normal leading-none text-gray-400 dark:text-gray-500">
+                            12.2022 - 06.2023
                         </time>
                         <Card
                             company={"Siemens"}
-                            position={"Master Thesis Student"}
+                            position={"Software Engineer"}
                             description={
-                                "Title: Dynamic macro to micro scale calculation of energy consumption metrics in\n" +
+                                "Dynamic macro to micro scale calculation of energy consumption metrics in\n" +
                                 "CI/CD pipelines."
                             }
                             logo={siemens}
@@ -57,7 +73,7 @@ const Experience = function () {
                         </time>
                         <Card
                             company={"Motius"}
-                            position={"Software Engineer (Student)"}
+                            position={"Software Engineer (Part time)"}
                             description={
                                 "Research, develop and evaluate advanced technologies such as driver assistance systems, IOT and distributed microservices"
                             }
@@ -73,7 +89,7 @@ const Experience = function () {
                         </time>
                         <Card
                             company={"Virtual Identity"}
-                            position={"Junior System Administrator (Student)"}
+                            position={"Junior System Administrator (Part time)"}
                             description={
                                 "Supporting the IT infrastructure and introducing and automating new IT processes."
                             }
@@ -89,7 +105,7 @@ const Experience = function () {
                         </time>
                         <Card
                             company={"IAV"}
-                            position={"Actuator and sensor department (Student)"}
+                            position={"Actuator and sensor department (Part time)"}
                             description={
                                 "Programming tools for the evaluation of sensor data and supporting data interpretation."
                             }

@@ -11,11 +11,11 @@ const About = function () {
             <div className="flex">
                 <div className="default-text m-auto text-lg md:text-xl max-w-3xl">
                     Hi, I am Niko and I am enthusiastic about technology.
-                    My passion is to design, program, and create.
-                    I am currently doing my master's in Computer Science at KTH in Stockholm and have a bachelor's in
+                    My passion is to design, program and create.
+                    I am working as IT Consultant at Netlight and have background in
                     Computer Science as well as Mechanical Engineering.
-                    I have industry experience as a Software Engineer working with distributed microservices, web
-                    development, and driver assistance systems.
+                    I have industry experience as a Software Engineer working with backend, distributed microservices, web
+                    development and DevOps.
                     In my free time, I enjoy experimenting with different programming languages and exploring new
                     technologies.
                 </div>

@@ -110,7 +110,7 @@ const Projects = function () {
             </div>
             <div
                 className="p-4 grid grid-cols-1 sm:grid-cols-1 sm:p-4 md:grid-cols-2 md:p-6 lg:grid-cols-3 lg:p-8 xl:grid-cols-3 xl:p-10 gap-8 m-auto max-w-6xl">
-                <Card name={"Master Thesis"}
+                <Card name={"CI/CD Energy Measurements"}
                       type={IndustryBadge}
                       img={greenIT}
                       description={`Dynamic macro to micro scale calculation of energy consumption metrics in CI/CD pipelines. Creation of transparent and fine-granular energy measurements for pipelines and derivation of possible improvements.`}

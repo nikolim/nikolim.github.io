@@ -12,7 +12,7 @@ const Study = function ({university, subject, degree, logo, graduation}) {
                     <h4 className="mb-2 text-2xl font-bold text-white">{university}</h4>
                     <h5 className="mb-2 text-xl font-medium text-white">{subject}</h5>
                     <p className="mb-2 text-xl font-medium text-white">({degree})</p>
-                    <h5 className="mb-3 text-lg text-gray-400">Graduation {graduation}</h5>
+                    {/*<h5 className="mb-3 text-lg text-gray-400">Graduation {graduation}</h5>*/}
                 </div>
                 <div className="h-20 w-20 m-5">
                     <Image src={logo} alt={""}/>
